@@ -2,13 +2,12 @@
     .navigation-wrapper {
         flex-direction: column;
         height: 100%;
-    } 
+    }
 
     .navigation-wrapper > .left-column {
         order: 2;
         margin-top: 10px;
         margin-bottom: 15px;
-        
     }
 
     .navigation-wrapper > .center-column {
@@ -30,7 +29,7 @@
         margin-top: 10px;
         margin-bottom: 10px;
         font-size: 1.5em;
-        width: 100%
+        width: 100%;
     }
 
     .hero-section {
@@ -50,7 +49,7 @@
         height: 100%;
     }
 
-    .skewed-header > .skewed-header > .skewed-header-content{
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content {
         flex-direction: column;
     }
 
@@ -71,11 +70,6 @@
     .square {
         grid-template-columns: 1fr !important;
     }
-
-    .square {
-        grid-template-columns: 1fr !important;
-    }
-
 
     .square > .square-text-wrapper {
         order: 1;
